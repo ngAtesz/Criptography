@@ -39,6 +39,7 @@ class AteszCaesarCipher:
 
 if __name__ == '__main__':
     decoded_sentence = "Guido van Rossum!"
+    message = "snake"
     cipher_encoder = AteszCaesarCipher(13)
     encoded = cipher_encoder.encode(decoded_sentence)
     print(encoded)
